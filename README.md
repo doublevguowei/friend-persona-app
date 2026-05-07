@@ -212,7 +212,7 @@ pip install -r requirements.txt
 4. Start Command：
 
 ```bash
-uvicorn main:app --host 0.0.0.0 --port $PORT
+python start.py
 ```
 
 5. 设置环境变量：
@@ -232,7 +232,7 @@ Render 免费实例的本地文件系统可能在服务重建后丢失 SQLite �
 3. Start Command：
 
 ```bash
-uvicorn main:app --host 0.0.0.0 --port $PORT
+python start.py
 ```
 
 4. 设置环境变量：
